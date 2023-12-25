@@ -1,0 +1,16 @@
+Sitemap: http://danil.rusm.space/static/5749056_8.xml
+User-agent: *
+Allow: http://danil.rusm.space/
+Disallow: /*?*
+Disallow: /*%
+Disallow: /index.php
+Disallow: /*?page=
+Disallow: /*&page=
+Disallow: *PHPSESSID=
+Disallow: *session_id=
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+Disallow: /wp-content/themes
+Disallow: /trackback
