@@ -1,0 +1,36 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block title %}<title>Dels</title>{% endblock %}
+{% block disc %}<meta name="description" content="Новостная страница игрового портала">{% endblock %}
+{% block style %}
+{% static 'style.css' %}
+{% endblock %}
+{% block content %}
+<main class="row col-12">
+    <div class="card mt-4" style="width: 60rem;">
+      <img src="{% static 'img/post1.jpg' %}" class="card-img-top" alt="Принц игра обложка" style="height: 400px;">
+      <div class="card-body">
+        <a href="{% url 'post1' %}"><h5 class="card-title">Почти 20 минут геймплея Prince of Persia: The Lost Crown</h5></a>
+        <p class="card-text">До релиза новой игры в серии Prince of Persia осталось меньше месяца. К сожалению, это не ремейк первой части, но бодрый экшен-платформер с подзаголовком  The Lost Crown.</p>
+        <p class="card-text">26.12 - 18:52</p>
+      </div>
+    </div>
+
+  <div class="card mt-4" style="width: 60rem;">
+    <img src="{% static 'img/post2.jpg' %}" class="card-img-top" alt="Cyberpunk 2077 игра обложка" style="height: 400px;">
+    <div class="card-body">
+      <a href="{% url 'post2' %}"><h5 class="card-title">Игры с лучшей графикой в 2023 году по версии Digital Foundry</h5></a>
+      <p class="card-text">Команда Digital Foundry собралась вместе, чтобы подсветить самые «графонистые» игры 2023 года. Конкуренция между тайтлами оказалась настолько высокой, что специалистам пришлось много думать о распределении мест в чарте.</p>
+      <p class="card-text">25.12 - 13:32</p>
+    </div>
+  </div>
+    <div class="card mt-4" style="width: 60rem;">
+      <img src="{% static 'img/post3.jpg' %}" class="card-img-top" alt="Sony обложка" style="height: 400px;">
+      <div class="card-body">
+        <a href="{% url 'post3' %}"><h5 class="card-title">Да не тряситесь — Sony передумала удалять контент из библиотек пользователей</h5></a>
+        <p class="card-text">В начале декабря в Сети поднялась волна негодования в сторону Sony, которая решила удалить у пользователей PlayStation все сериалы и шоу канала Discovery, даже те, что уже были куплены. Теперь же корпорация отыграла всё назад. </p>
+        <p class="card-text">24.12 - 11:04</p>
+      </div>
+    </div>
+  </div>
+{% endblock %}

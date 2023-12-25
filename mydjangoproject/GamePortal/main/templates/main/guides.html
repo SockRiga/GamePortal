@@ -1,0 +1,25 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block title %}<title>Гайды</title>{% endblock %}
+{% block disc %}<meta name="description" content="Страница с игровыми гайдами">{% endblock %}
+{% block style %}
+{% static 'style.css' %}
+{% endblock %}
+{% block content %}
+<div class="guides3 d-flex row col-12"  style="min-height: 51rem;">
+    <div class="card mt-4 ms-4 col-2" style="width: 18rem;" >
+        <img src="{% static 'img/guide1.jpeg' %}" class="card-img-top" alt="Cyberpunk 2077 игра обложка">
+        <div class="card-body">
+          <a href="{% url 'guid1' %}"><h5 class="card-title">Легенда Найт-сити – гайд по прохождению задания Cyberpunk 2077</h5></a>
+          <p>25.12 - 18:24</p>
+        </div>
+    </div>
+    <div class="card mt-4 ms-4 col-2" style="width: 18rem;" >
+        <img src="{% static 'img/guide2.jpeg' %}" class="card-img-top" alt="Алан игра обложка">
+        <div class="card-body">
+          <a href="{% url 'guid2' %}"><h5 class="card-title">Как получить обрез в Alan Wake 2 - новинке 2023 года</h5></a>
+          <p>24.12 - 20:44</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

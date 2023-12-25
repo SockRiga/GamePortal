@@ -1,0 +1,35 @@
+* {
+    background-color: gray;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    color: white;
+    background-color: grey;
+}
+
+.card a {
+    color: white;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.guides3 {
+    align-items: center;
+    justify-content: center;
+}

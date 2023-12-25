@@ -1,0 +1,31 @@
+main {
+    margin: 0 20%;
+    background-color: rgb(29, 29, 29);
+    height: 100%
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+img {
+    min-width: 100%;
+    max-width: 100%;
+}
