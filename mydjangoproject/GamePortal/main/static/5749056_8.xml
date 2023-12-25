@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>http://danil.rusm.space/</loc>
+	<lastmod>2023-12-25T22:28:12+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://danil.rusm.space/guides</loc>
+	<lastmod>2023-12-25T22:28:12+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://danil.rusm.space/about</loc>
+	<lastmod>2023-12-25T22:28:12+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://danil.rusm.space/post1</loc>
+	<lastmod>2023-12-25T22:28:12+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://danil.rusm.space/post2</loc>
+	<lastmod>2023-12-25T22:28:12+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://danil.rusm.space/post3</loc>
+	<lastmod>2023-12-25T22:28:12+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://danil.rusm.space/guid1</loc>
+	<lastmod>2023-12-25T22:28:12+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://danil.rusm.space/guid2</loc>
+	<lastmod>2023-12-25T22:28:12+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>
